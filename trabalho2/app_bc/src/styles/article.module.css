@@ -1,0 +1,138 @@
+.background_image {
+
+    background-image: url(../public/images/fundo.png);
+    background-repeat: no-repeat;
+
+}
+
+.nav_options_wrapper {
+    margin-left: 6%;
+}
+
+.nav_options_wrapper>span {
+    margin: 8px;
+}
+
+#titulo {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    color: white;
+}
+
+.nav_link {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.nav_link:hover {
+    color: rgb(33, 25, 185);
+}
+
+#home_link {
+    color: rgb(32, 23, 215);
+}
+
+
+
+.background_opacity {
+    background-color: rgba(0, 0, 0, 0.280);
+    padding-top: 20px;
+    min-height: 90vh;
+}
+
+
+
+.text_conteiner {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.botao_artigo,
+.botao_remover {
+    background-color: #0b0b0b;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+
+
+.botao_artigo {
+    background-color: #0b0b0b;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.author_information {
+    background-color: #0b0b0bad;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.author_information>span {
+    color: white;
+    margin: 4px;
+}
+
+.form_conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_conteiner>input {
+    margin: 4px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 50vw;
+}
+
+#texto {
+    text-align: justify;
+    width: 80vw;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.form_conteiner>button {
+    margin: 4px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 50vw;
+    background-color: #2e2e2e;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.form_conteiner>button:hover {
+    background-color: rgb(33, 25, 185);
+}

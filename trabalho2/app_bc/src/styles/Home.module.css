@@ -1,0 +1,104 @@
+.nav {
+  height: 10vh;
+  background-color: #0b0b0b;
+  display: flex;
+  align-items: center;
+}
+
+.nav_options_wrapper {
+  margin-left: 6%;
+}
+
+.nav_options_wrapper > span {
+  margin: 8px;
+}
+
+.a {
+  text-decoration: none;
+  color: black;
+  transition: 0.2s;
+}
+
+.nav_link {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.nav_link:hover {
+  color: rgb(33, 25, 185);
+}
+
+#home_link {
+  color: rgb(32, 23, 215);
+}
+
+.main {
+  background-image: url(../public/images/fundo.png);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.background_opacity {
+  background-color: rgba(0, 0, 0, 0.279);
+  padding-top: 10px;
+}
+
+.h2 {
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+
+.section_artigos {
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+  row-gap: 15px;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.card_artigo {
+  background-color: rgba(0, 0, 0, 0.695);
+  width: 350px;
+  height: 170px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.card_artigo:hover {
+  background-color: rgb(44, 51, 181)
+}
+
+.titulo_artigo {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.link_artigo {
+  height: 93px;
+}
+
+.texto_artigo {
+  color: white;
+  height: inherit;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.footer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 20vh;
+}
+
+.footer > p {
+  color: white;
+}
